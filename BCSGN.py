@@ -98,7 +98,7 @@ def main():
     
     Imagefile = input('\nEnter The Precise filename of your Image(Make sure The File is located within the img Folder):  ')
     
-    f.write("""    <img src="../img/"""+Imagefile+"""" width = "50%" style="min-width: 300px;">" """)
+    f.write("""    <img src="../img/"""+Imagefile+"""" width = "50%" style="min-width: 300px;"> """)
     f.write(Part2)
     f.write("\n<br>\n")
     
